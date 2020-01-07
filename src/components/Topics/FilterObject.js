@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class FilterObject extends Components {
+class FilterObject extends Component {
     render() {
         return (
             <p>FilterObject Component</p>

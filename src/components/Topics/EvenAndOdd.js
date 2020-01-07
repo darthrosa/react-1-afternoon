@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class EvenAndOdd extends Componenet {
+class EvenAndOdd extends Component {
     render() {
         return (
             <p>EvenandOdd Component</p>
