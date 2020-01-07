@@ -16,13 +16,14 @@ class EvenAndOdd extends Component {
     }
 
     assignEvensAndOdds(userInput){
+        let arr = this.state.userInput.split(',')
         let evens = [];
         let odds = [];
-        for (let i = 0; i < userInput.length; i++ ){
-          if (userInput[i] % 2 === 0 ){
-            evens.push(userInput[i])
+        for (let i = 0; i < arr.length; i++ ){
+          if (arr[i] % 2 === 0 ){
+            evens.push(parseInt(arr[i]))
           } else {
-            odds.push(userInput[i])
+            odds.push(parseInt(arr[i]))
           }
         }
     
